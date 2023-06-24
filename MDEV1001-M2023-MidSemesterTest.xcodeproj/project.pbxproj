@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		61F6E98F2A47699B0003CCEB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61F6E98E2A47699B0003CCEB /* AppDelegate.swift */; };
 		61F6E9912A47699B0003CCEB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61F6E9902A47699B0003CCEB /* SceneDelegate.swift */; };
-		61F6E9932A47699B0003CCEB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61F6E9922A47699B0003CCEB /* ViewController.swift */; };
 		61F6E9962A47699B0003CCEB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61F6E9942A47699B0003CCEB /* Main.storyboard */; };
 		61F6E9992A47699B0003CCEB /* MDEV1001_M2023_MidSemesterTest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 61F6E9972A47699B0003CCEB /* MDEV1001_M2023_MidSemesterTest.xcdatamodeld */; };
 		61F6E99B2A47699D0003CCEB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61F6E99A2A47699D0003CCEB /* Assets.xcassets */; };
@@ -18,13 +17,13 @@
 		61F6E9A82A476DEE0003CCEB /* SportsTeamTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61F6E9A72A476DEE0003CCEB /* SportsTeamTableViewCell.swift */; };
 		61F6E9AA2A476E520003CCEB /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61F6E9A92A476E520003CCEB /* DataViewController.swift */; };
 		61F6E9AC2A476F290003CCEB /* DataSeeder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61F6E9AB2A476F290003CCEB /* DataSeeder.swift */; };
+		61F6E9AE2A477A840003CCEB /* AddEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61F6E9AD2A477A840003CCEB /* AddEditViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		61F6E98B2A47699B0003CCEB /* MDEV1001-M2023-MidSemesterTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MDEV1001-M2023-MidSemesterTest.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		61F6E98E2A47699B0003CCEB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		61F6E9902A47699B0003CCEB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		61F6E9922A47699B0003CCEB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		61F6E9952A47699B0003CCEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		61F6E9982A47699B0003CCEB /* MDEV1001_M2023_MidSemesterTest.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MDEV1001_M2023_MidSemesterTest.xcdatamodel; sourceTree = "<group>"; };
 		61F6E99A2A47699D0003CCEB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -34,6 +33,7 @@
 		61F6E9A72A476DEE0003CCEB /* SportsTeamTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SportsTeamTableViewCell.swift; sourceTree = "<group>"; };
 		61F6E9A92A476E520003CCEB /* DataViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataViewController.swift; sourceTree = "<group>"; };
 		61F6E9AB2A476F290003CCEB /* DataSeeder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataSeeder.swift; sourceTree = "<group>"; };
+		61F6E9AD2A477A840003CCEB /* AddEditViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddEditViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,9 +70,9 @@
 				61F6E9AB2A476F290003CCEB /* DataSeeder.swift */,
 				61F6E9A52A476B0A0003CCEB /* sportsTeam.json */,
 				61F6E9A92A476E520003CCEB /* DataViewController.swift */,
+				61F6E9AD2A477A840003CCEB /* AddEditViewController.swift */,
 				61F6E98E2A47699B0003CCEB /* AppDelegate.swift */,
 				61F6E9902A47699B0003CCEB /* SceneDelegate.swift */,
-				61F6E9922A47699B0003CCEB /* ViewController.swift */,
 				61F6E9942A47699B0003CCEB /* Main.storyboard */,
 				61F6E99A2A47699D0003CCEB /* Assets.xcassets */,
 				61F6E99C2A47699D0003CCEB /* LaunchScreen.storyboard */,
@@ -155,9 +155,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				61F6E9A82A476DEE0003CCEB /* SportsTeamTableViewCell.swift in Sources */,
-				61F6E9932A47699B0003CCEB /* ViewController.swift in Sources */,
 				61F6E9992A47699B0003CCEB /* MDEV1001_M2023_MidSemesterTest.xcdatamodeld in Sources */,
 				61F6E98F2A47699B0003CCEB /* AppDelegate.swift in Sources */,
+				61F6E9AE2A477A840003CCEB /* AddEditViewController.swift in Sources */,
 				61F6E9AA2A476E520003CCEB /* DataViewController.swift in Sources */,
 				61F6E9912A47699B0003CCEB /* SceneDelegate.swift in Sources */,
 				61F6E9AC2A476F290003CCEB /* DataSeeder.swift in Sources */,
