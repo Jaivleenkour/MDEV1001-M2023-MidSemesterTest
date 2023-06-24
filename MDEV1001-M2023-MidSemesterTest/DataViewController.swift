@@ -50,7 +50,8 @@ class DataViewController: UIViewController , UITableViewDelegate, UITableViewDat
             
             let sportsTeam = sportsTeamArray[indexPath.row]
             cell.teamNameLabel?.text = sportsTeam.teamname
-            cell.gameTypeLabel?.text = sportsTeam.gametype
+            cell.gameTypeLabel?.text = "League: \(sportsTeam.league!) | Game: \(sportsTeam.gametype!)"
+            
             
           //  cell.ratingLabel?.text = "\(sportsTeam.criticsrating)"
             let imgData = sportsTeam.logourl != nil ? UIImage(data: sportsTeam.logourl!) : nil

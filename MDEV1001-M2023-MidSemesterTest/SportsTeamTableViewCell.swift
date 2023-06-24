@@ -10,7 +10,7 @@ import UIKit
 class SportsTeamTableViewCell: UITableViewCell {
     
     @IBOutlet weak var teamNameLabel: UILabel!
-    @IBOutlet weak var gameTypeLabel: UILabel!
+    @IBOutlet weak var leagueAndGameTypeLabel: UILabel!
     @IBOutlet weak var teamLogo: UIImageView!
     
     
